@@ -1,0 +1,28 @@
+name: FirstJoinWarning
+version: 1.0.0
+main: com.firstjoinwarning.FirstJoinWarningPlugin
+api-version: '1.21'
+author: matt@callumscorner.com
+description: Displays important warnings to new players before they can join the server
+
+commands:
+  firstjoin:
+    description: FirstJoinWarning command
+    usage: |
+      /firstjoin reload - Reload configuration
+      /firstjoin reset <player> - Reset a player's warning progress
+    permission: firstjoinwarning.use
+
+permissions:
+  firstjoinwarning.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+  firstjoinwarning.reset:
+    description: Allows resetting a player's warning progress
+    default: op
+  firstjoinwarning.use:
+    description: Allows using FirstJoinWarning commands
+    default: op
+    children:
+      firstjoinwarning.reload: true
+      firstjoinwarning.reset: true

@@ -1,0 +1,27 @@
+warnings:
+  warning-1:
+    title: "NOTICE #1"
+    message: |
+      This server is operated by Matt, a community member.
+      While I massively appreciate it, you should not blindly trust me!
+      NOTHING BAD WILL HAPPEN IF YOU DON'T USE A VPN! I'm just reminding you they exist, and all that.
+      Plus we have all heard the (UNPROVEN) rumours about what happened with IP addresses in a previous Corner MC server
+      So, please consider a VPN for piece of mind!
+      
+      Rejoin the server to continue, and to confirm you have read this message.
+  
+  warning-2:
+    title: "NOTICE #2"
+    message: |
+      Your Minecraft name history is public.
+      Please visit https://namemc.com/profile/{player} to view your complete username history before continuing.
+      If there is private info in the list of your previous usernames, like real name, I recommend using a different Minecraft account.
+
+      Rejoin the server to continue, and to confirm you have read this message.
+  
+  warning-3:
+    title: "NOTICE #3"
+    message: |
+      This is the last warning, next time you join you will be connected to the server with other players.
+      
+      Rejoin the server to continue, and to confirm you have understood these warnings.
